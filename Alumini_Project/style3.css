@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Montserrat';
+    font-size:10px;
+    scroll-behavior: smooth;
+}
+.main{
+    height:149px;
+    background-image: url(4.jpeg);
+    width: 100%;
+    background-size: cover;
+}
+.alumnus{
+    position: absolute;
+    width: 700px;
+    top:12px;
+    left: 200px;
+    color: white;
+}
+.main h1 span{
+    color: red;
+}
+.navbar{
+    position: relative;
+    top:40px;
+}
+.searchbtn:hover{
+    background-color:white;
+    color: black;
+}
+.searchbtn{
+    position: relative;
+    margin-left: 1250px;
+    top:10px;
+    color:white;
+    background-color: grey;
+    font-size: 24px;
+    text-align: center;
+    border: 5px solid grey;
+}
+.search{
+    position: relative;
+    margin-left: 1070px;
+    top:40px;
+    size: 1rem;
+    color:black;
+}
+.middlesection{
+    position: relative;
+    width:100%;
+    height:1270px;
+    background-color:rgb(224, 215, 215);
+}
+.middlesection h2{
+    position: relative;
+    top:30px;
+    font-size: 36px;
+}
+.middlesection h2{
+    font-weight: 100;
+}
+.images{
+    position: relative;
+    top:50px;
+}
+.left{
+    float: left;
+}
+.nav>li.heyy{
+    position: relative;
+margin-left: 350px;
+}
+.nav>li.heyy1{
+    position: relative;
+bottom: 7px;
+}
+.left h2:hover{
+color: crimson;
+}
+.right{
+    float: right;
+    position: absolute;
+    width: 800px;
+}
+.right .grid{
+    display: grid;
+    position: relative;
+    left:740px;
+    top:60px;
+    width:200px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 80px;
+}
+.left .shift{
+    position: relative;
+    top:60px;
+    left: 10px;
+    color: grey;
+}
+.left .shift1{
+    position: relative;
+    right:10px;
+}
+.left .shift4{
+    position: relative;
+    left:50px;
+    bottom: 2px;
+}
+.left .shift5{
+    position: relative;
+    left:57px;
+}
+.left .shift8:hover,.shift3:hover,.shift5:hover,.shift7:hover{
+color:#F86C54;
+}
+.left .shift2{
+    position: relative;
+    left:20px;
+}
+.left .shift3{
+    position: relative;
+    left: 27px;
+}
+.left .shift6{
+    position: relative;
+    left: 77px;
+}
+.left .shift7{
+    position: relative;
+    left: 85px;
+}
+.para{
+    position: relative;
+    top:100px;
+    width: 700px;
+    color:gray;
+}
+.cta{
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    color: rgb(161, 142, 146);
+    border: 2px solid crimson;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: transparent;
+    text-align: center;
+    top:130px;
+    border-radius:4px;
+}
+.cta:hover{
+    background-color: crimson;
+    color: white;
+}
+.cta1{
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    color: rgb(161, 142, 146);
+    border: 2px solid crimson;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: transparent;
+    text-align: center;
+    top:260px;
+    border-radius:4px;
+}
+.cta1:hover{
+    background-color: crimson;
+    color: white;
+}
+.cta3{
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    color: rgb(161, 142, 146);
+    border: 2px solid crimson;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: transparent;
+    text-align: center;
+    top:100px;
+    left:270px;
+    border-radius:4px;
+}
+.cta3:hover{
+    background-color: crimson;
+    color: white;
+}
+h2.heading1{
+    position: relative;
+    top:150px;
+    width: 700px;
+}
+.left .shift10{
+    position: relative;
+    top:200px;
+    left: 10px;
+    color: grey;
+}
+.left .line{
+    position: relative;
+    top:240px;
+    width: 700px;
+}
+.grid-item1{
+    background-color:#50ABF1;
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+.grid-item5{
+    background-color:#50ABF1;
+    padding: 20px;
+}
+.grid-item2{
+    background-color: #4867AA;
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+.grid-item3{
+    background-color: #24cec5;
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+.grid-item4{
+    background-color: rgb(248, 151, 167);
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+.grid-item8{
+    background-color: rgb(248, 151, 167);
+    padding: 20px;
+}
+.grid-item7{
+    background-color: #24cec5;
+    padding: 25px;
+}
+.grid-item6{
+    background-color: #4867AA; 
+    padding: 20px;
+}
+.grid-item4:hover,.grid-item8:hover{
+    background-color:rgb(241, 107, 130);
+}
+.grid-item1:hover,.grid-item5:hover{
+    background-color:#3d98dd;
+}
+.grid-item3:hover,.grid-item7:hover{
+    background-color:#0BB1A8;
+}
+.grid-item2:hover,.grid-item6:hover{
+    background-color:#395ca7;
+}
+.text1{
+    position: relative;
+    top:10px;
+    color: white;
+    text-align: center;
+}
+.text1 span{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+}
+.ad{
+    position: relative;
+    left:740px;
+    top:60px;
+    width: 200px;
+}
+.ads{
+    position: relative;
+    left:10px;
+    font-size: 26px;
+    width:400px;
+}
+.box{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+}
+.box1{
+    position: relative;
+    left:170px;
+    margin: 10px 10px 10px 0;
+    width: 150px;
+    height: 150px;
+    background-color: white;   
+}
+h2.heading2{
+    font-size: 26px;
+    position: relative;
+    left: 14px;
+}
+.link{
+    position: relative;
+    top:70px;
+    text-decoration: none;
+    margin-bottom: 50px;
+    left: 14px;
+}
+a.links{
+    width:fit-content;
+    height:6px;
+    background-color: rgb(36, 33, 33);
+    text-align: center;
+    padding: 20px;
+    color: white;   
+    border-radius: 4px;
+    margin-right:10px;
+    
+}
+a.links:hover{
+color: white;
+background-color: crimson;
+text-decoration: none;
+border-radius: 4px;
+}
+h2.heading3{
+    position: relative;
+    font-size: 26px;
+    top:70px;
+}
+input[type="email"]{
+    position: relative;
+    top:80px;
+    height: 40px;
+    width: 430px;
+    padding-left:12px;
+}
+.rights{
+    position: relative;
+    top:60px;
+    text-align: center;
+    height: 50px;
+}
+.rights span{
+    color: crimson;
+}
